@@ -11,11 +11,6 @@ name: Aria2 Builder
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-  push:
-    paths-ignore:
-      - '**.md'
-      - 'LICENSE'
 
 jobs:
   build:
